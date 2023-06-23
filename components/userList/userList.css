@@ -1,0 +1,47 @@
+.cs142-userList-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cs142-userList-profile {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cs142-userList-favorites {
+    text-decoration: none;
+    color: inherit;
+    margin-top: 16px;
+}
+
+.cs142-userList-deleteAccount {
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.cs142-userList-favorites :hover {
+    cursor: pointer;
+}
+
+.cs142-userList-deleteAccount :hover {
+    cursor: pointer;
+}
+
+.cs142-userList-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cs142-userList-modal .buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 14px;
+}

@@ -1,0 +1,178 @@
+.cs142-userPhotos-photoCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.cs142-userPhotos-photoCard img {
+    height: 300px;
+    margin-top: 30px;
+}
+
+.cs142-userPhotos-postedOn {
+    margin-top: 10px;
+}
+
+.cs142-userPhotos-likeContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.cs142-userPhotos-likeButton-notLiked{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.cs142-userPhotos-likeButton-liked {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.cs142-userPhotos-likeButton-notLiked :hover {
+    cursor: pointer;
+}
+
+.cs142-userPhotos-likeButton-liked :hover {
+    cursor: pointer;
+}
+
+.cs142-userPhotos-likeButton-notLiked .material-icons {
+    padding-top: 3px;
+    margin-right: 5px;
+}
+
+.cs142-userPhotos-likeButton-liked .material-icons {
+    padding-top: 3px;
+    margin-right: 5px;
+    color: #1876D2;
+}
+
+.cs142-userPhotos-likeButton-liked .likeText {
+    color: #1876D2;
+}
+
+.cs142-userPhotos-favoriteButton-notFavorited {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.cs142-userPhotos-favoriteButton-favorited {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.cs142-userPhotos-favoriteButton-notFavorited :hover {
+    cursor: pointer;
+}
+
+.cs142-userPhotos-favoriteButton-favorited :hover {
+    cursor: pointer;
+}
+
+.cs142-userPhotos-favoriteButton-notFavorited .material-icons {
+    padding-top: 3px;
+    margin-right: 5px;
+}
+
+.cs142-userPhotos-favoriteButton-favorited .material-icons {
+    padding-top: 3px;
+    margin-right: 5px;
+    color: rgb(239, 115, 115);
+}
+
+.cs142-userPhotos-favoriteButton-favorited .favoriteText {
+    color: rgb(239, 115, 115);
+}
+
+.cs142-userPhotos-commentsContainer {
+    padding-top: 6px;
+    padding-bottom: 30px;
+    width: 80%;
+}
+
+.cs142-userPhotos-commentsLabel {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.cs142-userPhotos-comment {
+    display: grid;
+    grid-template-columns: 200px 1fr 20px;
+    grid-column-gap: 30px;
+    width: 100%;
+}
+
+.cs142-userPhotos-comment .commenter {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.cs142-userPhotos-comment .date {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.cs142-userPhotos-comment .comment {
+    grid-row: 1 / span 3;
+    grid-column: 2 / 3;
+    padding-top: 5px;
+    word-wrap: break-word;
+}
+
+.cs142-userPhotos-deleteComment {
+    grid-row: 1 / span 3;
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs142-userPhotos-deleteComment :hover {
+    cursor: pointer;
+}
+
+.cs142-userPhotos-newComment {
+    margin-left: 10px;
+}
+
+.cs142-userPhotos-newComment input {
+    margin-left: 10px;
+}
+
+.cs142-userPhotos-commentInput {
+    width: 60%;
+}
+
+.cs142-userPhotos-commentForm {
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.cs142-userPhotos-deletePhoto {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.cs142-userPhotos-deletePhoto :hover {
+    cursor: pointer;
+}
+

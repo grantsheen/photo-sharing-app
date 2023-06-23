@@ -1,0 +1,35 @@
+CS142 Project 8 - Submission Form
+
+Please fill in this form and submit it with your Project 8.
+
+Enter no more than 5 user stories that you did for the assignment that you would
+like to be graded on. For each story include the following information:
+
+Story number and name: 5 - Deleting Comments, Photos, and Users
+Story points: 4
+Brief description to see the story in action: Register / Log in and comment on other photos and delete them,
+upload photos and delete them, and delete your profile and login through someone else's account to see that
+all of your information is gone.
+
+Story number and name: 6 - Photo like votes
+Story points: 4
+Brief description to see the story in action: Go to other people's photos and like them, then refresh the page
+to see that the status persists. You can also repeatedly like and it will update the icon and count in real time.
+
+Story number and name: 6 - Favorite lists of photos for users
+Story points: 6
+Brief description to see the story in action: Go to other people's photos and favorite them, then go to "My Favorites"
+at the bottom of User List and see the ones you selected. You can delete them by clicking the x, and can check they are
+no longer favorited on the person's profile as well. You can also click on the thumbnails to expand the Modal.
+
+Total Story Points: 14
+
+Marketing Video URL (ensure permissions are set to public viewing):
+https://youtu.be/LLiwUfd3xLo
+
+Is it OK if we post your Marketing Video URL on the class discussion forum? 
+Yes
+
+Any special instructions for grading (it should be easy for someone to run your
+app from a new machine):
+None

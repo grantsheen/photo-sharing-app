@@ -1,0 +1,26 @@
+.cs142-topbar-appBar {
+  height: 60;
+  justify-content: center;
+}
+
+.cs142-topbar-toolBar {
+  justify-content: center;
+}
+
+.cs142-topbar-uploadPhotoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cs142-topbar-logout:hover {
+  cursor: pointer;
+}
+
+.cs142-topbar-login:hover {
+  cursor: pointer;
+}
+
+.cs142-topbar-uploadPhoto:hover {
+  cursor: pointer;
+}

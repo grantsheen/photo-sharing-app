@@ -1,0 +1,71 @@
+.cs142-favorites-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cs142-favorites-grid .cell {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cs142-favorites-grid .photo {
+    display: inline-block;
+    position: relative;
+}
+
+.cs142-favorites-grid .photo img {
+    display: block;
+    width: 100%;
+    max-height: 300px;
+}
+
+.cs142-favorites-grid .photo :hover {
+    cursor: pointer;
+}
+
+.cs142-favorites-grid .photo .delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cs142-favorites-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: scroll;
+}
+
+.cs142-favorites-modalContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 15px;
+}
+
+.cs142-favorites-modalContent img {
+    margin-bottom: 10px;
+    max-height: 400px;
+}
+
+.cs142-favorites-closeContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+  
